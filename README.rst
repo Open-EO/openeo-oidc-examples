@@ -10,6 +10,7 @@ Logical steps
 
 There are four entities involved in openEO OIDC-based authentication: user, identity provider (IP), openEO client (client), openEO back-end (back-end).
 The goal is to be able to authenticate users without the client and back-end ever have to directly deal with user credentials. For this to work, each entity has a role:
+
 - user:
   - register an application at the IP supported by the back-end (the user can find this at /credentials/oidc). The user obtains from the IP a client_id/client_secret for his/her application and needs to set one or more redirect URIs.
 - back-end: 
